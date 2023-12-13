@@ -1,0 +1,38 @@
+header{
+  width: auto;
+  max-width: 900px;
+  height: 70px;
+  border: 1px solid red;
+  display: flex;
+}
+
+.nav{
+  width: 50%;
+  height: inherit;
+  border: 1px solid blue;
+  align-items: center;
+  gap: 5px;
+  justify-content: flex-end;
+}
+
+.img{
+  width: 50%;
+  height: inherit;
+  border: 1px solid blue;
+}
+
+.button {
+  width: 70px;
+  height: 30px;
+  background-image: linear-gradient(to top, blue, black);
+  color: white;
+  border: none;
+}
+.button1{
+  width: 70px;
+  height: 30px;
+  background-image: linear-gradient(to top, blue, black);
+  color: white;
+  border: none;
+  margin-right: 5px;
+}
